@@ -19,7 +19,7 @@ public abstract class Veiculo {
 		return quantidadeRodas;
 	}
 
-	public void setQuantidadeRodas(Integer quantidadeRodas) {
+	protected void setQuantidadeRodas(Integer quantidadeRodas) {
 		this.quantidadeRodas = quantidadeRodas;
 	}
 	
